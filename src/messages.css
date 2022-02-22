@@ -1,0 +1,53 @@
+.message-list {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-exterior {
+    color: white;
+    background: red;
+    border-radius: 15px;
+    padding: 0px 15px 0px 15px;
+    width: fit-content;
+    margin: 10px;
+}
+
+.message-inner {
+    color: white;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 10px;
+    align-self: end;
+    background: blue;
+    display: flex;
+    flex-direction: row;
+}
+
+.message-exterior p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+    align-self: center;
+}
+
+.message-inner p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+    align-self: center;
+}
+
+.messageSender {
+    height: 10vh;
+    background: red;
+}
+
+.messageSender input {
+    height: 50%;
+    margin: 2%;
+}
+
+.imageMessage {
+    border-radius: 15px;
+}
